@@ -778,7 +778,7 @@ class WPBDP_Plugin {
         $html = '';
 
         if(wpbdp_get_option('credit-author')) {
-            $html .= '<div class="wpbdmac">Directory powered by <a href="http://businessdirectoryplugin.com/">Business Directory Plugin</a></div>';
+            $html .= '<div class="wpbdmac hide">Directory powered by <a href="http://businessdirectoryplugin.com/">Business Directory Plugin</a></div>';
         }
 
         echo $html;
