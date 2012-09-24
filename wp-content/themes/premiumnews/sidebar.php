@@ -112,7 +112,7 @@
 				
 				<h2 class="hl"><?php _e( 'SERVICE LISTINGS', 'woothemes' ); ?></h2>
 				<ul>
-					<li><?php wpbusdirman_the_listing_category() ?></li>
+					<li><?php echo wpbusdirman_the_listing_category() ?></li>
 				</ul>
 
 			</div><!--/widget-->
