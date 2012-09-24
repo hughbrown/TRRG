@@ -110,22 +110,7 @@
 		
 			<div class="widget">
 				
-				<h2 class="hl"><?php _e( 'SERVICE LISTINGS', 'woothemes' ); ?></h2>
-				<ul>
-
-                    <li>Automotive</li>
-                    <li>Chambers & Organizations</li>
-                    <li>Dining & Entertainment</li>
-                    <li>eMarketing</li>
-                    <li>Health & Beauty</li>
-                    <li>Home & Business</li>
-                    <li>Personal</li>
-                    <li>Pets</li>
-                    <li>Specialty</li>
-                    <li>Wedding</li>
-
-
-                </ul>
+				
 
 			</div><!--/widget-->
 		
