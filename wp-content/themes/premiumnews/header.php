@@ -79,9 +79,9 @@
 
 			<div id="social-connect">
 				<ul>
-					<li><a href=""><img src ="<?php echo get_template_directory_uri(); ?>/images/social/facebook.png" /></a></li>
-					<li><a href=""><img src ="<?php echo get_template_directory_uri(); ?>/images/social/twitter.png" /></a></li>
-					<li><a href=""><img src ="<?php echo get_template_directory_uri(); ?>/images/social/linkedin.png" /></a></li>
+					<li><a href="http://www.facebook.com/TRRGcom"><img src ="<?php echo get_template_directory_uri(); ?>/images/social/facebook.png" /></a></li>
+					<li><a href="https://twitter.com/TRRGcom"><img src ="<?php echo get_template_directory_uri(); ?>/images/social/twitter.png" /></a></li>
+					<li><a href="http://www.linkedin.com/pub/brenda-ryan/3/2a3/232"><img src ="<?php echo get_template_directory_uri(); ?>/images/social/linkedin.png" /></a></li>
 					<li><a href=""><img src ="<?php echo get_template_directory_uri(); ?>/images/social/youtube.png" /></a></li>
 					<li><a href=""><img src ="<?php echo get_template_directory_uri(); ?>/images/social/rss.png" /></a></li>
 				</ul>
