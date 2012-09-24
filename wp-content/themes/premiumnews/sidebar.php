@@ -83,11 +83,7 @@
 		<?php if (function_exists('woo_sidebar') && woo_sidebar( 'primary' ) ) : else : ?>		
 		
 			<div class="widget">
-			
-				<h2 class="hl"><?php _e( 'RELATED SITES', 'woothemes' ); ?></h2>
-				<ul class="list2">
-					<?php get_links('-1','<li>','</li>'); ?>
-				</ul>
+
 			
 			</div><!--/widget-->
 		
@@ -114,17 +110,11 @@
 		
 			<div class="widget">
 				
-				<h2 class="hl"><?php _e( 'INFORMATION', 'woothemes' ); ?></h2>
+				<h2 class="hl"><?php _e( 'SERVICE LISTINGS', 'woothemes' ); ?></h2>
 				<ul>
-					<li><a href="http://www.woothemes.com">Premium News Home</a></li>
-					<li><a href="http://www.adii.co.za"><?php _e( 'Designed by', 'woothemes' ); ?> Adii</a></li>
-					<?php wp_register(); ?>
-					<li><?php wp_loginout(); ?></li>					
-					<li><a href="http://www.wordpress.org"><?php _e( 'Powered by', 'woothemes' ); ?> WordPress</a></li>
-					<li><a href="http://localhost/premium/?feed=rss2"><?php _e( 'Entries RSS', 'woothemes' ); ?></a></li>
-					<li><a href="http://localhost/premium/?feed=comments-rss2"><?php _e( 'Comments RSS', 'woothemes' ); ?></a></li>
+					<li><?php wpbusdirman_the_listing_category() ?></li>
 				</ul>
-				
+
 			</div><!--/widget-->
 		
 		<?php endif; ?>
