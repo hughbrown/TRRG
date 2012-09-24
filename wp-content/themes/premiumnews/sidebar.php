@@ -112,8 +112,20 @@
 				
 				<h2 class="hl"><?php _e( 'SERVICE LISTINGS', 'woothemes' ); ?></h2>
 				<ul>
-					<li><?php get_the_term_list(get_the_ID(), wpbdp_categories_taxonomy()); ?></li>
-				</ul>
+
+                    <li>Automotive</li>
+                    <li>Chambers & Organizations</li>
+                    <li>Dining & Entertainment</li>
+                    <li>eMarketing</li>
+                    <li>Health & Beauty</li>
+                    <li>Home & Business</li>
+                    <li>Personal</li>
+                    <li>Pets</li>
+                    <li>Specialty</li>
+                    <li>Wedding</li>
+
+
+                </ul>
 
 			</div><!--/widget-->
 		
