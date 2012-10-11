@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/print.css" type="text/css" media="print" />
     <!--[if IE]><link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/ie.css" type="text/css" media="screen, projection"><![endif]-->
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
+    <link rel="author" href="humans.txt" />
     <?php wp_head(); ?>
     <script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
     <script type="text/javascript">
