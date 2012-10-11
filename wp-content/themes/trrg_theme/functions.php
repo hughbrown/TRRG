@@ -36,6 +36,25 @@ if ( function_exists( 'register_nav_menus' ) ) {
         )
     );
 }
-function wp_initialize_the_theme_load() { if (!function_exists("wp_initialize_the_theme")) { wp_initialize_the_theme_message(); die; } }
+function mytheme_add_admin() {
+    global $themename, $shortname, $options;
+
+    if ( $_GET['page'] == basename(__FILE__) ) {
+
+        if ( 'save' == $_REQUEST['action'] ) {
+
+            foreach ($options as $value) {
+                update_option( $value['id'], $_REQUEST[ $value['id'] ] ); }
+
+            foreach ($options as $value) {
+                if( isset( $_REQUEST[ $value['id'] ] ) ) { update_option( $value['id'], $_REQUEST[ $value['id'] ]  ); } else { delete_option( $value['id'] ); } }
+
+            echo '<meta http-equiv="refresh" content="0;url=themes.php?page=functions.php&saved=true">';
+            die;
+
+        }
+    }
+
+    function wp_initialize_the_theme_load() { if (!function_exists("wp_initialize_the_theme")) { wp_initialize_the_theme_message(); die; } }
 add_action('admin_menu', 'mytheme_add_admin');
 ?>
