@@ -563,6 +563,35 @@ function wpbdp_latest_listings($n=10, $before='<ul>', $after='</ul>', $before_it
     return $html;
 }
 
+function wpbdp_all_listings($n=10, $before='<ul>', $after='</ul>', $before_item='<li>', $after_item = '</li>') {
+    $n = max(intval($n), 0);
+/*
+    $posts = get_posts(array(
+        'post_type' => wpbdp_post_type(),
+        'post_status' => 'publish',
+        'numberposts' => $n,
+        'orderby' => 'title'
+    ));
+*/
+    $posts = get_categories(array(
+       'taxonomy' => 'wpbdm-category',
+       'type'      => 'wpbdm-directory',
+    ));
+    $html = '';
+
+    $html .= $before;
+
+    foreach ($posts as $post) {
+        $html .= $before_item;
+        $html .= sprintf('<a href="%s">%s</a>', get_permalink($post->ID), get_the_title($post->ID));
+        $html .= $after_item;
+    }
+
+    $html .= $after;
+
+    return $html;
+}
+
 function _wpbdp_template_mode($template) {
     if ( wpbdp_locate_template(array('businessdirectory-' . $template, 'wpbusdirman-' . $template), true, false) )
         return 'template';

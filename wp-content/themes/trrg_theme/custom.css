@@ -1,0 +1,25 @@
+body {
+    background-color: #000080;
+    margin: 0 auto;
+    padding: 0;
+}
+.container:after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+.sidebar-left, .sidebar-right {
+    background-color: #E10000;
+}
+.content {
+    background-color: #FFF;
+}
+#s {
+    margin: 2px 0 0;
+    padding: 3px;
+    width: 130px;
+}
+#footer, #credits {clear: both}

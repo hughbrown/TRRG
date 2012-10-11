@@ -8,7 +8,7 @@
 
 <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php if ( get_option( 'woo_feedburner_url' ) != '' ) { echo get_option( 'woo_feedburner_url' ); } else { echo get_bloginfo_rss( 'rss2_url' ); } ?>" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-<?php wp_head(); ?>
+
 
 <!--[if lte IE 6]>
 <script defer type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/images/pngfix.js"></script>
