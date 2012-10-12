@@ -661,4 +661,6 @@ div.aligncenter {
 }
 
 .trrg-right {
+    padding: 0 5px;
+    border-left: #000000 dotted 1px;
 }

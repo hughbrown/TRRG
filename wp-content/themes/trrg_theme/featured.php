@@ -5,7 +5,9 @@
  </div>
  <div class="grid_5 omega trrg-right">
      <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Column 3 Feature') ) : ?>
-     <?php fb_feed() ?>
+        <p class="trrg-right">
+            <?php fb_feed() ?>
+        </p>
      <?php else: ?>
 
      <?php endif; ?>
