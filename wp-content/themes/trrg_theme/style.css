@@ -653,6 +653,9 @@ div.aligncenter {
 }
 #footer, #credits {clear: both}
 
+#featured-th{
+    border-top: dotted #d3d3d3 1px;
+}
 .trrg-mid {
-    background-color: #d3d3d3;
+    background-color: #ffffff;
 }
