@@ -1,4 +1,4 @@
-<div id="featured-th" class="grid_8">
+<div id="featured-th">
  <div class="grid_3 alpha">
      <p>One</p>
  </div>
