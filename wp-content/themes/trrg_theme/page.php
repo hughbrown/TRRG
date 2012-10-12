@@ -7,7 +7,9 @@
             <div class="post" id="post-<?php the_ID(); ?>">
                 <h2 class="title"><?php the_title(); ?></h2>
                 <div class="breadcrumb">
-                    <a href="<?php echo get_option('home'); ?>/">Home</a> | <?php the_title(); ?>
+
+                        <a href="<?php echo get_option('home'); ?>/">Home</a> | <?php the_title(); ?>
+
                 </div> <!-- breadcrumb end -->
                     <?php if ( function_exists("has_post_thumbnail") && has_post_thumbnail() ) { the_post_thumbnail(array(300,225), array("class" => "alignleft post_thumbnail")); } ?>
                     <?php the_content('<p class="serif">Read the rest of this page &raquo;</p>'); ?>
@@ -16,6 +18,7 @@
 
                 </div> <!-- post end -->
             </div> <!-- content end -->
+
             <?php endwhile; endif; ?>
             <?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
 

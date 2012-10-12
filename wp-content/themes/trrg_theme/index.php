@@ -4,7 +4,7 @@
             <div class="grid_8">
             	<div id="content" class="content">
                     <!-- Content Entry -->
-                    <?php if(is_home()) { include (TEMPLATEPATH . '/featured.php'); } ?>
+
                     <?php if (have_posts()) : ?>
                     <?php while (have_posts()) : the_post(); ?>
 
@@ -36,6 +36,8 @@
 
 
                 </div> <!-- content end -->
+                <hr />
+                <?php if(is_home()) { include (TEMPLATEPATH . '/featured.php'); } ?>
             </div> <!-- grid_8 end -->
             <?php get_sidebar('right'); ?>
         </div> <!-- contentwrap end -->
