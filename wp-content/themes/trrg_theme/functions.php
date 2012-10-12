@@ -20,6 +20,39 @@ if ( function_exists('register_sidebar') ) {
         ));
 }
 
+register_sidebar(
+    array(
+        'name' => 'Column 1 Feature',
+        //'before_widget' => '<li id="%1$s" class="widget %2$s">',
+        'before_widget' =>'',
+        'after_widget' => '',
+        'before_title' => '<h3 class="widgettitle">',
+        'after_title' => '</h3>',
+    ));
+}
+
+register_sidebar(
+    array(
+        'name' => 'Column 2 Feature',
+        //'before_widget' => '<li id="%1$s" class="widget %2$s">',
+        'before_widget' =>'',
+        'after_widget' => '',
+        'before_title' => '<h3 class="widgettitle">',
+        'after_title' => '</h3>',
+    ));
+}
+
+register_sidebar(
+    array(
+        'name' => 'Column 3 Feature',
+        //'before_widget' => '<li id="%1$s" class="widget %2$s">',
+        'before_widget' =>'',
+        'after_widget' => '',
+        'before_title' => '<h3 class="widgettitle">',
+        'after_title' => '</h3>',
+    ));
+}
+
 if(!function_exists('get_sidebars')) {
     function get_sidebars($args='')
     {
