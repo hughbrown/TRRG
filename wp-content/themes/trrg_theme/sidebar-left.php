@@ -27,7 +27,7 @@
            <!-- end -->
 
         </div>
-        <hr />
+        
         <div id="service_listings">
 
 
