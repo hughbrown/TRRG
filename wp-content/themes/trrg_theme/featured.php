@@ -1,4 +1,4 @@
-<div id="featured-th" class="grid_12">
+<div id="featured-th" class="grid_8">
  <div class="grid_3">
      <p>One</p>
  </div>
