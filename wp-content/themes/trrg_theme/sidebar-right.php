@@ -1,4 +1,4 @@
-<div class="grid_2 sb-right">
+<div class="grid_2 omega">
     <div class="sidebar sidebar-right">
         <div id="social"></div>
         <div id="search">

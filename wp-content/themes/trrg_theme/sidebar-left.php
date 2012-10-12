@@ -1,4 +1,4 @@
-<div class="grid_2">
+<div class="grid_2 alpha">
     <div class="sidebar sidebar-left">
         <div id="main_nav">
 
