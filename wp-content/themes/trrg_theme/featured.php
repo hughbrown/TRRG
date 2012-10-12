@@ -2,10 +2,7 @@
  <div class="grid_3 alpha">
      <p>One</p>
  </div>
- <div class="grid_3">
-     <p>Two</p>
- </div>
- <div class="grid_2 omega">
+ <div class="grid_5">
      <?php fb_feed() ?>
  </div>
 
