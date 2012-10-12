@@ -652,3 +652,7 @@ div.aligncenter {
     width: 130px;
 }
 #footer, #credits {clear: both}
+
+#featured-th {
+    background-color: #d3d3d3;
+}
