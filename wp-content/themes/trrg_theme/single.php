@@ -1,7 +1,7 @@
 <?php get_header(); ?>
         <div id="contentwrap" class="grid_12">
             <?php get_sidebar('left'); ?>
-            <div class="grid_8">
+            <div class="grid_8 trrg-mid">
             	<div id="content" class="content">
                     <?php if (have_posts()) : ?>
                     <?php while (have_posts()) : the_post(); ?>
