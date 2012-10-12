@@ -679,7 +679,7 @@ div.aligncenter {
     padding: 5px;
 }
 
-#main-nav h3 {
+h3#main-nav {
     display: block;
     font-weight: bold;
     color: #ffff00;
