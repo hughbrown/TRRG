@@ -34,9 +34,9 @@
 
                     <!-- Content Entry End-->
 
-                    <?php if(is_home()) { include (TEMPLATEPATH . '/featured.php'); } ?>
-                </div> <!-- content end -->
 
+                </div> <!-- content end -->
+                <?php if(is_home()) { include (TEMPLATEPATH . '/featured.php'); } ?>
             </div> <!-- grid_8 end -->
             <?php get_sidebar('right'); ?>
         </div> <!-- contentwrap end -->
