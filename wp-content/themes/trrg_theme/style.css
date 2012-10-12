@@ -675,6 +675,13 @@ div.aligncenter {
 }
 
 #main_nav{
-    border: 1px solid #a9a9a9;
+    border: 1px dotted #ffff00;
     padding: 5px;
+}
+
+#main-nav h3 {
+    display: block;
+    font-weight: bold;
+    color: #ffff00;
+    border-bottom: 1px solid #a9a9a9;
 }
