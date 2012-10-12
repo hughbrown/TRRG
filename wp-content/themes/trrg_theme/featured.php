@@ -3,15 +3,16 @@
      <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Column 1 Feature') ) : ?>
      <?php endif; ?>
  </div>
- <div class="grid_5 omega trrg-right">
+ <div class="grid_5 omega">
+    <p class="trrg-right">
      <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Column 3 Feature') ) : ?>
-        <p class="trrg-right">
+
             <?php fb_feed() ?>
-        </p>
+
      <?php else: ?>
 
      <?php endif; ?>
-
+    </p>
  </div>
 
 </div><!--/featured-th-->
