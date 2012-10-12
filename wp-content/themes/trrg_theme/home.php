@@ -5,7 +5,7 @@
             	<div id="content" class="content">
                     <!-- Content Entry -->
                     <?php $recent = new WP_Query("cat=1&showposts=1"); while($recent->have_posts()) : $recent->the_post();?>
-                        <h2><?php the_title(); ?></h2>
+                        <h2 class="title"><?php the_title(); ?></h2>
                         <?php the_content(__('Read the story &raquo;'));?><div style="clear:both;"></div>
                     <?php endwhile; ?>
 
