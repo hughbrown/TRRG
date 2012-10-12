@@ -18,7 +18,7 @@ if ( function_exists('register_sidebar') ) {
             'before_title' => '<h3 class="widgettitle">',
             'after_title' => '</h3>',
         ));
-}
+
 
 register_sidebar(
     array(
@@ -29,7 +29,7 @@ register_sidebar(
         'before_title' => '<h3 class="widgettitle">',
         'after_title' => '</h3>',
     ));
-}
+
 
 register_sidebar(
     array(
@@ -40,7 +40,7 @@ register_sidebar(
         'before_title' => '<h3 class="widgettitle">',
         'after_title' => '</h3>',
     ));
-}
+
 
 register_sidebar(
     array(
