@@ -6,7 +6,7 @@
      <p>Two</p>
  </div>
  <div class="grid_2 omega">
-     <p>Three</p>
+     <?php fb_feed() ?>
  </div>
 
 </div><!--/featured-th-->
