@@ -1,0 +1,18 @@
+/* TEAM */
+Your title: Kirdric Hill
+Site: kirdric.hill [at] gmail.com
+Twitter: kirdric
+Location:
+                        [...]
+
+
+/* THANKS */
+Name: thereferralresourceguide.com
+                        [...]
+
+
+/* SITE */
+Last update: YYYY/MM/DD
+Standards: HTML5, CSS3,..
+Components: Modernizr, jQuery, etc.
+Software: WordPress
