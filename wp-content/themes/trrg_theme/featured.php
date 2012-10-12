@@ -3,7 +3,7 @@
      <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Column 1 Feature') ) : ?>
      <?php endif; ?>
  </div>
- <div class="grid_5 omega">
+ <div class="grid_5 omega trrg-right">
      <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Column 3 Feature') ) : ?>
      <?php fb_feed() ?>
      <?php else: ?>
