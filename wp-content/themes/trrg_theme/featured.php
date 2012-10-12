@@ -5,8 +5,9 @@
  </div>
  <div class="grid_5 omega">
      <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Column 3 Feature') ) : ?>
+     <?php fb_feed() ?>
      <?php else: ?>
-        <?php fb_feed() ?>
+
      <?php endif; ?>
 
  </div>
