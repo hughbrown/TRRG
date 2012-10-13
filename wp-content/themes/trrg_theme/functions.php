@@ -25,8 +25,8 @@ register_sidebar(
     array(
         'name' => 'Column 1 Feature',
         //'before_widget' => '<li id="%1$s" class="widget %2$s">',
-        'before_widget' =>'',
-        'after_widget' => '',
+        'before_widget' =>'<p id="%1$s" class="widget trrg-left %2$s">',
+        'after_widget' => '</p>',
         'before_title' => '<h3 class="widgettitle">',
         'after_title' => '</h3>',
     ));
