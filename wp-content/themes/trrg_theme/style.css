@@ -659,6 +659,7 @@ div.aligncenter {
 }
 .trrg-mid {
     background-color: #ffffff;
+    min-height: 1145px;
 }
 .trrg-left {
     margin: 8px auto 4px 8px;
