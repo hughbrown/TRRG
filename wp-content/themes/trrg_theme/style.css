@@ -663,6 +663,7 @@ div.aligncenter {
 .trrg-left {
     margin: 8px auto 4px 8px;
     border-bottom: dotted #000 1px;
+    padding-bottom: 8px;
 }
 
 .fb-feed {
