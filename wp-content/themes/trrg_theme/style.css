@@ -661,7 +661,8 @@ div.aligncenter {
     background-color: #ffffff;
 }
 .trrg-left {
-    margin: 5px auto auto 5px;
+    margin: 8px auto 4px 8px;
+    border-bottom: dotted #000 1px;
 }
 
 .fb-feed {
