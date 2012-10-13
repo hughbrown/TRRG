@@ -399,7 +399,7 @@ div.aligncenter {
 }
 
 .sidebar-right {
-    
+
 }
 
 .sidebar-left {
@@ -659,6 +659,9 @@ div.aligncenter {
 }
 .trrg-mid {
     background-color: #ffffff;
+}
+.trrg-left {
+    margin: 5px auto auto 5px;
 }
 
 .fb-feed {
