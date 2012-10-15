@@ -688,7 +688,6 @@ div.aligncenter {
     text-align: center;
     padding: 10px 0;
     margin-bottom: 20px;
-    clear: both;
 }
 
 .sponsor_block a{
@@ -702,7 +701,9 @@ div.aligncenter {
 }
 
 .sponsor_block p{
+    width: 70%;
     float: right;
+
 }
 
 #main_nav{

@@ -31,6 +31,7 @@
             <h4>' .$atts['title'] .'</h4>
             <a href="'. $atts['link'].'"><img src="'. $atts['src'] .'"></a>
             <p>'.$atts['desc'].'</p>
+            <div class="clearfix"></div>
             </div>';
 
     });
