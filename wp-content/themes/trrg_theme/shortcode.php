@@ -29,9 +29,8 @@
 
             return '<div class="sponsor_block">
             <h4>' .$atts['title'] .'</h4>
-            <a href="'. $atts['link'].'"><img src="'. $atts['src'] .'" /></a>
-            <p>
-            '.$atts['desc'].'</p>
+            <a href="'. $atts['link'].'"><img src="'. $atts['src'] .'"></a>
+            <p>'.$atts['desc'].'</p>
             </div>';
 
     });
