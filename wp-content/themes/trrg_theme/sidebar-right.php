@@ -2,7 +2,7 @@
     <div class="sidebar sidebar-right">
         <div id="social"></div>
         <div id="search">
-            <form id="searchform" action="http://trrg-wp.local/" method="get">
+            <form id="searchform" action="/" method="get">
                 <input id="s" type="text" name="s" value="Search">
             </form>
         </div> <!-- search end -->
