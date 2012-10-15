@@ -681,6 +681,28 @@ div.aligncenter {
     margin-bottom: 20px;
 }
 
+.sponsor_block {
+    background: #f5f5f5;
+    border: 1px solid #a9a9a9;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.sponsor_block a{
+    border: none;
+}
+
+.sponsor_block img{
+    border: 1px black solid;
+    float:left;
+    margin-left: 5px;
+}
+
+.sponsor_block p{
+    float: right;
+}
+
 #main_nav{
     padding: 5px;
     margin-bottom: 10px;
