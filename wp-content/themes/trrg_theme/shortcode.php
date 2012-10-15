@@ -35,4 +35,22 @@
             </div>';
 
     });
+
+add_shortcode('trrg_sponsor_bottom', function($atts) {
+    $atts = shortcode_atts (
+        array (
+            'src' => '',
+            'link' => '',
+            'desc' => '',
+            'title' => ''
+        ), $atts);
+
+    return '<div class="sponsor_block">
+            <h4>' .$atts['title'] .'</h4>
+            <a href="'. $atts['link'].'"><img src="'. $atts['src'] .'"></a>
+            <p class="sp_bottom">'.$atts['desc'].'</p>
+            <div class="clearfix"></div>
+            </div>';
+
+});
 add_filter('widget_text', 'do_shortcode');

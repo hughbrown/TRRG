@@ -706,6 +706,12 @@ div.aligncenter {
     float: right;
 
 }
+
+.sponsor_block p.sp_bottom{
+    width: 214px;
+    text-align: left;
+
+}
 .sponsor_block h4{
     text-align: left;
     font-weight: bold;
