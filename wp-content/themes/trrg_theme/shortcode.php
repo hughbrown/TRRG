@@ -42,10 +42,11 @@ add_shortcode('trrg_sponsor_bottom', function($atts) {
             'src' => '',
             'link' => '',
             'desc' => '',
-            'title' => ''
+            'title' => '',
+            'style' => ''
         ), $atts);
 
-    return '<div class="sponsor_block">
+    return '<div class="' . $atts['style'] . '">
             <h4>' .$atts['title'] .'</h4>
             <a href="'. $atts['link'].'"><img src="'. $atts['src'] .'"></a>
             <p class="sp_bottom">'.$atts['desc'].'</p>

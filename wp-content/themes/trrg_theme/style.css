@@ -679,6 +679,16 @@ div.aligncenter {
     text-align: center;
     padding: 15px 0;
     margin-bottom: 20px;
+    width: 430px;
+}
+
+.service_block {
+    width: 185px;
+    background: #f5f5f5;
+    border: 1px solid #a9a9a9;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
 }
 
 .sponsor_block {
@@ -713,6 +723,14 @@ div.aligncenter {
     text-align: left;
 
 }
+
+.service_block p.sp_bottom{
+    width: auto;
+    padding: 10px;
+    text-align: left;
+
+}
+
 .sponsor_block h4{
     text-align: left;
     font-weight: bold;
