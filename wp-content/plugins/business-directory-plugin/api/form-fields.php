@@ -87,7 +87,7 @@ class WPBDP_FormFieldsAPI {
 				'display_options' => array('show_in_excerpt' => true)
 			),
 			'category' => array(
-						'label' => __("Business Genre","WPBDM"),
+						'label' => __("Business Category","WPBDM"),
 						'type' => 'select',
 						'association' => 'category',
 						'weight' => 8,

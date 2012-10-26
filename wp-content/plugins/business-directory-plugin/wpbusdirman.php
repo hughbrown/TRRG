@@ -620,7 +620,7 @@ class WPBDP_Plugin {
                     'display_options' => array('show_in_excerpt' => true)
                 ),
                 array(
-                    'label' => __("Business Genre","WPBDM"),
+                    'label' => __("Business Category","WPBDM"),
                     'type' => 'select',
                     'association' => 'category',
                     'weight' => 8,

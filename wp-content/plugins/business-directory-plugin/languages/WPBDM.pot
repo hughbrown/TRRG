@@ -1453,7 +1453,7 @@ msgid "Business Name"
 msgstr ""
 
 #: api/form-fields.php:90 wpbusdirman.php:612
-msgid "Business Genre"
+msgid "Business Category"
 msgstr ""
 
 #: api/form-fields.php:98 wpbusdirman.php:620
